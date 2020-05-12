@@ -1,18 +1,17 @@
+body {
+font: Arial;
+height: 100%;
+margin: 0;
+}
 
 .header-links {
 
     text-decoration: none;
-    color: #525252;
-    padding: 0 1em 0 1em;
+    color: #2b2a2a;
+    padding: 0 .5em;
     font-size: 12px;
 
 }
-
-.header {
-    flex-direction: row;
-    right: 20px;
-}
-
 .header-links:hover {
 
     text-decoration: underline;
@@ -22,9 +21,8 @@
 
     text-align: right;
     position: fixed;
-    top: 10px;
-    right:10px;
-
+    top: 0.3em;
+    right:1.4em;
 }
 
 .header ul li {
@@ -34,12 +32,19 @@
 
     display: inline;
 }
-.header ul li button {
-    background-color: #6065e0;
+.header button {
+    background-color: #4487fc;
     color: white;
     font-size: 12px;
-    padding: 0.4em 1em 0.4em 1em;
+    font-weight: bold;
+    padding: 0.5em 1.2em ;
+    border: none;
+    border-radius: 2px;
     }
+.header ul li img {
+    position: relative;
+    top: 10px;
+}
 .search {
     position: fixed;
     left: 43%;
@@ -52,30 +57,39 @@
     right: 150px;
     top:25px;
     resize: none;
+    border: 1px rgb(221, 219, 219) solid;
     border-radius: 25px;
     padding: .3em;
+  
+}
+.search textarea:hover {
+   border-color: #a0a0a0;
 }
 
 .search ul li {
     display: inline;
+    font-size: 12px;
 
 }
 .search ul {
 
     display: inline;
+    font-size: 12px;
 }
 .search p {
     display: inline;
     position: relative;
-    right:50px;
+    
     top:60px;
+    font-size: 12px;
+    font-family: arial;
     
 }
 .search a {
 
     color: darkblue;
     position: relative;
-    right:50px;
+    padding: 0 .2em;
     top:60px
 }
 .search button {
@@ -83,8 +97,16 @@
     right: 0px;
     top: 40px;
     font-size: 14px;
-    background-color: lightgray;
-    padding: .4em 1em .4em 1em;
+    background-color: rgba(190, 188, 188, 0.178);
+    padding: .4em 1.4em;
+    border:none;
+    border-radius: 2px;
+}
+
+.search button:hover {
+    border: 1px gray solid;
+border-color: gray;
+shadow
 }
 
 ul {
@@ -93,6 +115,7 @@ list-style: none;
 }
 a {
     text-decoration: none;
+    color: black;
 }
 a:hover {
 
@@ -101,22 +124,32 @@ a:hover {
 
 footer ul li{
     display: inline;
+    font-size: 12px;
+    padding: 0 1em;
+  
+}
+footer ul {
+    bottom: 1em;
+}
+footer a {
+    block-size: auto;
 }
 
-.footer1-set-of-links ul{
-  
-    
+.footer1-set-of-links ul{   
     position: fixed;
-    bottom: 10px;
     left: 10px;
 }
 .footer2-set-of-links ul{
-
     position: fixed;
-    bottom: 10px;
     right: 10px;
 }
 
-footer {
-    background-color: lightgray;
+.footer {
+    position: fixed;
+    bottom: 0;
+	width: 100%;
+	height: 2.3rem;
+	background-color: #f5f5f5;
+	border-top-style: solid;
+	border-top-color: #e2e2e08f;
 }
