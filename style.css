@@ -3,6 +3,8 @@
 
     text-decoration: none;
     color: #525252;
+    padding: 0 1em 0 1em;
+    font-size: 12px;
 
 }
 
@@ -18,11 +20,17 @@
 
 .header ul {
 
-    text-align: center;
+    text-align: right;
+    position: fixed;
+    top: 10px;
+    right:10px;
 
 }
 
 .header ul li {
+    position: relative;
+    top:10px;
+    right: 10px;
 
     display: inline;
 }
@@ -32,14 +40,51 @@
     font-size: 12px;
     padding: 0.4em 1em 0.4em 1em;
     }
+.search {
+    position: fixed;
+    left: 43%;
+    top: 21.5%;
+}
 
+.search textarea {
+
+    position: relative;
+    right: 150px;
+    top:25px;
+    resize: none;
+    border-radius: 25px;
+    padding: .3em;
+}
 
 .search ul li {
     display: inline;
 
 }
+.search ul {
+
+    display: inline;
+}
 .search p {
     display: inline;
+    position: relative;
+    right:50px;
+    top:60px;
+    
+}
+.search a {
+
+    color: darkblue;
+    position: relative;
+    right:50px;
+    top:60px
+}
+.search button {
+    position: relative;
+    right: 0px;
+    top: 40px;
+    font-size: 14px;
+    background-color: lightgray;
+    padding: .4em 1em .4em 1em;
 }
 
 ul {
@@ -52,4 +97,26 @@ a {
 a:hover {
 
     text-decoration: underline;
+}
+
+footer ul li{
+    display: inline;
+}
+
+.footer1-set-of-links ul{
+  
+    
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+}
+.footer2-set-of-links ul{
+
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+footer {
+    background-color: lightgray;
 }
