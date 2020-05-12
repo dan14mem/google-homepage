@@ -1,8 +1,55 @@
-img {
-    display: inline;
-    top: 50%;
+
+.header-links {
+
+    text-decoration: none;
+    color: #525252;
+
 }
 
-li {
+.header {
+    flex-direction: row;
+    right: 20px;
+}
 
+.header-links:hover {
+
+    text-decoration: underline;
+}
+
+.header ul {
+
+    text-align: center;
+
+}
+
+.header ul li {
+
+    display: inline;
+}
+.header ul li button {
+    background-color: #6065e0;
+    color: white;
+    font-size: 12px;
+    padding: 0.4em 1em 0.4em 1em;
+    }
+
+
+.search ul li {
+    display: inline;
+
+}
+.search p {
+    display: inline;
+}
+
+ul {
+list-style: none;
+
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+
+    text-decoration: underline;
 }
